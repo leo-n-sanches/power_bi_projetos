@@ -22,7 +22,7 @@ Banco de dados utilizado no projeto:
 | `data` | Date | Data considerando mês e ano da produção |
 | `uf` | String | Estado da localização da produção |
 | `produto` | String | Produto produzido |
-| `total_produzido`| Int64| Quantidade produzida |
+| `total_produzido`| NUMERIC(21, 3)| Quantidade produzida |
 | `ossos`| String| Presença de ossos sendo "Com osso" e "Sem osso" |
 | `temperatura`| String | Temperatura do produto sendo "Congelado", "Resfriado" e "Ambiente" |
 
@@ -34,7 +34,7 @@ Banco de dados utilizado no projeto:
 | `data` | Date | Data considerando mês e ano da produção |
 | `uf` | String | Estado da localização da produção |
 | `produto` | String | Produto produzido |
-| `total_produzido`| Int| Quantidade produzida |
+| `total_produzido`| NUMERIC(21, 3)| Quantidade produzida |
 | `ossos`| String| Presença de ossos sendo "Com osso" e "Sem osso" |
 | `temperatura`| String | Temperatura do produto sendo "Congelado", "Resfriado" e "Ambiente" |
 
@@ -46,7 +46,7 @@ Banco de dados utilizado no projeto:
 | `data` | Date | Data considerando mês e ano da produção |
 | `uf` | String | Estado da localização da produção |
 | `produto` | String | Produto produzido |
-| `total_produzido`| Int| Quantidade produzida |
+| `total_produzido`| NUMERIC(21, 3)| Quantidade produzida |
 | `ossos`| String| Presença de ossos sendo "Com osso" e "Sem osso" |
 | `temperatura`| String | Temperatura do produto sendo "Congelado", "Resfriado" e "Ambiente" |
 
