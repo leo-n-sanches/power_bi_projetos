@@ -41,6 +41,18 @@ Informações em:
 
 Etapa 3 - SQL para modelagem e enriquecimento de dados epara elaboração das views que serão usadas no PowerBI
 
+Total de produtos distintos na base (População) = 274
+Total de produtos escolhidos para análise (Amostra) = 4
+Sendo eles:
+- 'CARNE RESFRIADA DE BOVINO COM OSSO'
+- 'CARNE RESFRIADA DE BOVINO SEM OSSO'
+- 'CARNE CONGELADA DE BOVINO SEM OSSO'
+- 'CARNE CONGELADA DE BOVINO COM OSSO'
+
+Sendo criadas 2 métricas:
+- Com osso / Sem osso
+- Congelada / Resfriada
+
 Produção
 - 
 
