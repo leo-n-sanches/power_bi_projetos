@@ -9,8 +9,51 @@ Disponivel nos arquivos:
 Banco de dados utilizado no projeto:
 - Supabase (PostgreSQL)
 
+Etapa 1 - Download dos dados em csv
 
+Os dados foram baixados do sistema PGA-SIGSIF oficial do Ministério da Agricultura e Pecuária(MAPA)
+Abaixo os links:
+https://sistemas.agricultura.gov.br/pga_sigsif/pages/view/sigsif/relatoriocomercializacao/index.xhtml
+https://sistemas.agricultura.gov.br/pga_sigsif/pages/view/sigsif/relatorioproducao/index.xhtml
 
+Os arquivos foram baixados em csv.
+
+Etapa 2 - ETL para tratamento dos dados em Python(pandas) e carregamento no banco de dados do Supabase(PostgreSQL)
+
+Os dados foram carregados no VScode e então foram realizados os tratamentos de:
+- Carregamento dos csv e criação dos dataframes
+- Coleta de informações para criação dos dicionários de dados
+- Correção de nomes de colunas
+- Correção de datas
+- Correção de tipos
+- Preenchimento de NaN
+- Criação de coluna "id" que será a "pk" no banco de dados
+- Conexão com o banco de dados por API KEY
+- Envio de arquivos para o banco de dados
+
+Simultaneamente a isso foram realizados no banco de dados:
+- Criação das tabelas silver com nomes corretos das colunas
+- Definição dos tipos corretos de cada coluna
+
+Informações em:
+- codigo_etl.py
+- codigo_etl.sql
+
+Etapa 3 - SQL para modelagem e enriquecimento de dados epara elaboração das views que serão usadas no PowerBI
+
+Produção
+- 
+
+Comércio Nacional
+- 
+
+Comércio Internacional
+- 
+
+Códigos em:
+- producao.sql
+- comercio_nacional.sql
+- comercio_internacional.sql
 
 
 ## Dicionarios de dados no PowerBI (OutPut)
