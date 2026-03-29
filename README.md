@@ -1,10 +1,5 @@
-# power_bi_projetos
-#Meus projetos build-to-learn de power bi! :)
-
-Realizo os tratamentos e modelagens em sql e python, quando necessário.
-Disponivel nos arquivos:
-- codigos.py
-- codigos.sql
+# Projeto de pesquisa macroeconômica do mercado de carnes SIF.
+## Meu projeto build-to-learn de Python, SQL e PowerBI! :)
 
 ## Objetivos
 
@@ -24,6 +19,14 @@ Disponivel nos arquivos:
 
 ## Requisitos
 
+- Extração de dados públicos do site oficial do SIF
+- Banco de dados para armazenamento dos dados
+- URL e API KEY para conexão do Python ao banco de dados
+- URL e permissão para conexão do banco de dados ao PowerBI
+
+## Resultado esperado
+
+3 Dashboards com filtros e apresentação preparados com todas as informações relevantes para tomada de decisão.
 
 ## Techstack
 - SQL (postgresql)
@@ -77,14 +80,11 @@ Sendo criadas 2 métricas:
 - Com osso / Sem osso
 - Congelada / Resfriada
 
-Produção
-- 
-
-Comércio Nacional
-- 
-
-Comércio Internacional
-- 
+Querys:
+- CTE para enriquecimento de dados e criação de métricas
+- Criação de tabela schema gold para organização de dados enriquecidos e tratados
+- Seleção de produtos e colunas que serão utilizados para criação dos dashboards
+- Criação de view para conectar ao PowerBI
 
 Códigos em:
 - producao.sql
@@ -93,9 +93,18 @@ Códigos em:
 
 ## Etapa 4 - Estruturação de dashboards e apresentação em PowerBI
 
-
-
-
+Criação das dimensões de calendário e geográfico para mapas
+Criação de medidas e organização em pastas
+Criação de um Top 3 em cada dashboard
+Utilização do 3-30-300 para melhorar o fluxo de visualização do dashboards pelo tomador de decisão
+Tooltips para enriquecer as informações durante a navegação
+Criação de filtro expansivel por botão
+Navegação por dashboards utilizando botões
+Criação de medidas de: YoY, % to total, % de variação do total, volume do total, volume de diferença do total
+Dashboard estratégico de volume por ano, por mês e acumulado por mês para identificar sazonalidade mensal
+Tabela de matriz para navegação detalhada pelos dados.
+Tabela de mapa para visualização de paises que realizam a compra e seus volumes
+Gráfico de barras(horizontal) para identificar e visualizar volumes e diferenças entre estados ou paises.
 
 ## Dicionarios de dados no PowerBI (OutPut)
 
