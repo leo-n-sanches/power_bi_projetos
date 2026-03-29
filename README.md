@@ -6,6 +6,35 @@ Disponivel nos arquivos:
 - codigos.py
 - codigos.sql
 
+Objetivos
+Produção
+- Identificar quais estados são os maiores produtores de cada um dos produtos selecionados
+- Quais métricas de produtos tem maior influencia em cada estado (congelado/resfriado) e (com osso / sem osso)
+- Recortes de faixas de periodo de datas, identificar sazonalidades e acumulados total, por ano e por mês.
+Aplicação em negócio
+- Varejo e atacado identificar oportunidades para compra desses produtos, por estado, periodo e métricas avaliadas, expandindo carteira de fornecedores e gerando economia.
+- Frigorificos
+- Fazendas ao identificar sazonalidades, podem tentar vender seus rebanhos para estados com menor produção a um preço maior. 
+Comercio Nacional
+- 
+- 
+Aplicação em negócio
+- 
+- 
+Comercio Internacional
+- 
+- 
+Aplicação em negócio
+- 
+- 
+
+
+
+
+Requisitos
+
+
+
 Banco de dados utilizado no projeto:
 - Supabase (PostgreSQL)
 
@@ -66,6 +95,8 @@ Códigos em:
 - producao.sql
 - comercio_nacional.sql
 - comercio_internacional.sql
+
+Etapa 4 - Estruturação de dashboards e apresentação em PowerBI
 
 
 ## Dicionarios de dados no PowerBI (OutPut)
